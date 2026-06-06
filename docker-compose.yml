@@ -8,4 +8,4 @@ services:
     ports:
       - "1313:1313"
     # Lệnh: Cài Hugo mới nhất -> Cài thư viện -> Chạy web
-    command: sh -c "apk add --no-cache hugo && npm install && hugo server --bind 0.0.0.0 --disableFastRender --poll 700ms"
+    command: sh -c "apk add --no-cache hugo && npm install && hugo server --bind 0.0.0.0 --baseURL http://localhost:1313/ --disableFastRender --poll 700ms"

@@ -38,7 +38,7 @@ jobs:
       - name: Build site
         run: |
           npm install
-          hugo --minify --gc --baseURL "https://gnavdev28.github.io/"
+          hugo --minify --gc --baseURL "https://gnavdev28.github.io/gnav_blog/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

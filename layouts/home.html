@@ -26,7 +26,7 @@
         <h2 class="h3 mb-5">Recent Posts</h2>
       </div>
       <div class="row justify-content-center text-start">
-        {{ $recent := (where site.RegularPages "Section" "blog") }}
+        {{ $recent := where site.RegularPages "Section" "in" (slice "blog" "nckh" "gsoc-2026") }}
         {{ range first 3 $recent }}
         <div class="col-lg-4 mb-4">
           <div class="card h-100 border-0 shadow-sm bg-body-tertiary">

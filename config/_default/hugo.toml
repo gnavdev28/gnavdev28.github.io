@@ -1,5 +1,5 @@
 title = "Gnav's Blog"
-baseurl = "https://gnavdev28.github.io/gnav_blog/"
+baseurl = "https://gnavdev28.github.io/"
 canonifyURLs = true
 relativeURLs = false
 disableAliases = true
